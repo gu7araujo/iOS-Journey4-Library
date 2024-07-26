@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		19629C6BBA4FCA51F16F53A6 /* Pods_Journey4_Journey4Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BB29E13930279F9B2A7DFCE /* Pods_Journey4_Journey4Tests.framework */; };
+		B7295AAB2C54108900FB7ABC /* Journey4.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7295AA22C54108900FB7ABC /* Journey4.framework */; };
+		B7295AB02C54108900FB7ABC /* Journey4Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7295AAF2C54108900FB7ABC /* Journey4Tests.swift */; };
+		B7295AB12C54108900FB7ABC /* Journey4.h in Headers */ = {isa = PBXBuildFile; fileRef = B7295AA52C54108900FB7ABC /* Journey4.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B7295ABB2C54130C00FB7ABC /* Journey4ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7295ABA2C54130C00FB7ABC /* Journey4ViewModel.swift */; };
+		B7295ABD2C54132000FB7ABC /* Journey4ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7295ABC2C54132000FB7ABC /* Journey4ViewController.swift */; };
+		B7295ABF2C54134D00FB7ABC /* Journey4Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7295ABE2C54134D00FB7ABC /* Journey4Coordinator.swift */; };
+		D31039F94221F52D856F3D9F /* Pods_Journey4.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8748066269F5F4A879A004F2 /* Pods_Journey4.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B7295AAC2C54108900FB7ABC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B7295A992C54108900FB7ABC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B7295AA12C54108900FB7ABC;
+			remoteInfo = Journey4;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		12B8C47C680698344FCD2E70 /* Pods-Journey4-Journey4Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Journey4-Journey4Tests.release.xcconfig"; path = "Target Support Files/Pods-Journey4-Journey4Tests/Pods-Journey4-Journey4Tests.release.xcconfig"; sourceTree = "<group>"; };
+		1BB29E13930279F9B2A7DFCE /* Pods_Journey4_Journey4Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Journey4_Journey4Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		230B591CE768E77EFAA69FE5 /* Pods-Journey4.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Journey4.release.xcconfig"; path = "Target Support Files/Pods-Journey4/Pods-Journey4.release.xcconfig"; sourceTree = "<group>"; };
+		8748066269F5F4A879A004F2 /* Pods_Journey4.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Journey4.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7295AA22C54108900FB7ABC /* Journey4.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Journey4.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7295AA52C54108900FB7ABC /* Journey4.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Journey4.h; sourceTree = "<group>"; };
+		B7295AAA2C54108900FB7ABC /* Journey4Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Journey4Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7295AAF2C54108900FB7ABC /* Journey4Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Journey4Tests.swift; sourceTree = "<group>"; };
+		B7295ABA2C54130C00FB7ABC /* Journey4ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Journey4ViewModel.swift; sourceTree = "<group>"; };
+		B7295ABC2C54132000FB7ABC /* Journey4ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Journey4ViewController.swift; sourceTree = "<group>"; };
+		B7295ABE2C54134D00FB7ABC /* Journey4Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Journey4Coordinator.swift; sourceTree = "<group>"; };
+		CFF295C174E01A6E30EEBB96 /* Pods-Journey4-Journey4Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Journey4-Journey4Tests.debug.xcconfig"; path = "Target Support Files/Pods-Journey4-Journey4Tests/Pods-Journey4-Journey4Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		FAE04B02EF9B1405D246A5E7 /* Pods-Journey4.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Journey4.debug.xcconfig"; path = "Target Support Files/Pods-Journey4/Pods-Journey4.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B7295A9F2C54108900FB7ABC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D31039F94221F52D856F3D9F /* Pods_Journey4.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7295AA72C54108900FB7ABC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7295AAB2C54108900FB7ABC /* Journey4.framework in Frameworks */,
+				19629C6BBA4FCA51F16F53A6 /* Pods_Journey4_Journey4Tests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B7295A982C54108900FB7ABC = {
+			isa = PBXGroup;
+			children = (
+				B7295AA42C54108900FB7ABC /* Journey4 */,
+				B7295AAE2C54108900FB7ABC /* Journey4Tests */,
+				B7295AA32C54108900FB7ABC /* Products */,
+				F993F9F664FF273C2B8C635E /* Pods */,
+				F77520D2615AC789E9FCD190 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B7295AA32C54108900FB7ABC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B7295AA22C54108900FB7ABC /* Journey4.framework */,
+				B7295AAA2C54108900FB7ABC /* Journey4Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B7295AA42C54108900FB7ABC /* Journey4 */ = {
+			isa = PBXGroup;
+			children = (
+				B7295AA52C54108900FB7ABC /* Journey4.h */,
+				B7295ABA2C54130C00FB7ABC /* Journey4ViewModel.swift */,
+				B7295ABC2C54132000FB7ABC /* Journey4ViewController.swift */,
+				B7295ABE2C54134D00FB7ABC /* Journey4Coordinator.swift */,
+			);
+			path = Journey4;
+			sourceTree = "<group>";
+		};
+		B7295AAE2C54108900FB7ABC /* Journey4Tests */ = {
+			isa = PBXGroup;
+			children = (
+				B7295AAF2C54108900FB7ABC /* Journey4Tests.swift */,
+			);
+			path = Journey4Tests;
+			sourceTree = "<group>";
+		};
+		F77520D2615AC789E9FCD190 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8748066269F5F4A879A004F2 /* Pods_Journey4.framework */,
+				1BB29E13930279F9B2A7DFCE /* Pods_Journey4_Journey4Tests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F993F9F664FF273C2B8C635E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FAE04B02EF9B1405D246A5E7 /* Pods-Journey4.debug.xcconfig */,
+				230B591CE768E77EFAA69FE5 /* Pods-Journey4.release.xcconfig */,
+				CFF295C174E01A6E30EEBB96 /* Pods-Journey4-Journey4Tests.debug.xcconfig */,
+				12B8C47C680698344FCD2E70 /* Pods-Journey4-Journey4Tests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		B7295A9D2C54108900FB7ABC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7295AB12C54108900FB7ABC /* Journey4.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		B7295AA12C54108900FB7ABC /* Journey4 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B7295AB42C54108900FB7ABC /* Build configuration list for PBXNativeTarget "Journey4" */;
+			buildPhases = (
+				197E71A7D6617473B5547B5B /* [CP] Check Pods Manifest.lock */,
+				B7295A9D2C54108900FB7ABC /* Headers */,
+				B7295A9E2C54108900FB7ABC /* Sources */,
+				B7295A9F2C54108900FB7ABC /* Frameworks */,
+				B7295AA02C54108900FB7ABC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Journey4;
+			productName = Journey4;
+			productReference = B7295AA22C54108900FB7ABC /* Journey4.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B7295AA92C54108900FB7ABC /* Journey4Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B7295AB72C54108900FB7ABC /* Build configuration list for PBXNativeTarget "Journey4Tests" */;
+			buildPhases = (
+				BDF0FEC9586E38531F3A144D /* [CP] Check Pods Manifest.lock */,
+				B7295AA62C54108900FB7ABC /* Sources */,
+				B7295AA72C54108900FB7ABC /* Frameworks */,
+				B7295AA82C54108900FB7ABC /* Resources */,
+				16BAA8F240349173942891E8 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B7295AAD2C54108900FB7ABC /* PBXTargetDependency */,
+			);
+			name = Journey4Tests;
+			productName = Journey4Tests;
+			productReference = B7295AAA2C54108900FB7ABC /* Journey4Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B7295A992C54108900FB7ABC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					B7295AA12C54108900FB7ABC = {
+						CreatedOnToolsVersion = 15.3;
+						LastSwiftMigration = 1530;
+					};
+					B7295AA92C54108900FB7ABC = {
+						CreatedOnToolsVersion = 15.3;
+					};
+				};
+			};
+			buildConfigurationList = B7295A9C2C54108900FB7ABC /* Build configuration list for PBXProject "Journey4" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B7295A982C54108900FB7ABC;
+			productRefGroup = B7295AA32C54108900FB7ABC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B7295AA12C54108900FB7ABC /* Journey4 */,
+				B7295AA92C54108900FB7ABC /* Journey4Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B7295AA02C54108900FB7ABC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7295AA82C54108900FB7ABC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		16BAA8F240349173942891E8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Journey4-Journey4Tests/Pods-Journey4-Journey4Tests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Journey4-Journey4Tests/Pods-Journey4-Journey4Tests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Journey4-Journey4Tests/Pods-Journey4-Journey4Tests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		197E71A7D6617473B5547B5B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Journey4-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BDF0FEC9586E38531F3A144D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Journey4-Journey4Tests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B7295A9E2C54108900FB7ABC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7295ABD2C54132000FB7ABC /* Journey4ViewController.swift in Sources */,
+				B7295ABB2C54130C00FB7ABC /* Journey4ViewModel.swift in Sources */,
+				B7295ABF2C54134D00FB7ABC /* Journey4Coordinator.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7295AA62C54108900FB7ABC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7295AB02C54108900FB7ABC /* Journey4Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B7295AAD2C54108900FB7ABC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B7295AA12C54108900FB7ABC /* Journey4 */;
+			targetProxy = B7295AAC2C54108900FB7ABC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		B7295AB22C54108900FB7ABC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B7295AB32C54108900FB7ABC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B7295AB52C54108900FB7ABC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FAE04B02EF9B1405D246A5E7 /* Pods-Journey4.debug.xcconfig */;
+			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gus.Journey4;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B7295AB62C54108900FB7ABC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 230B591CE768E77EFAA69FE5 /* Pods-Journey4.release.xcconfig */;
+			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gus.Journey4;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B7295AB82C54108900FB7ABC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CFF295C174E01A6E30EEBB96 /* Pods-Journey4-Journey4Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gus.Journey4Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B7295AB92C54108900FB7ABC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 12B8C47C680698344FCD2E70 /* Pods-Journey4-Journey4Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gus.Journey4Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B7295A9C2C54108900FB7ABC /* Build configuration list for PBXProject "Journey4" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7295AB22C54108900FB7ABC /* Debug */,
+				B7295AB32C54108900FB7ABC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B7295AB42C54108900FB7ABC /* Build configuration list for PBXNativeTarget "Journey4" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7295AB52C54108900FB7ABC /* Debug */,
+				B7295AB62C54108900FB7ABC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B7295AB72C54108900FB7ABC /* Build configuration list for PBXNativeTarget "Journey4Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7295AB82C54108900FB7ABC /* Debug */,
+				B7295AB92C54108900FB7ABC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B7295A992C54108900FB7ABC /* Project object */;
+}
