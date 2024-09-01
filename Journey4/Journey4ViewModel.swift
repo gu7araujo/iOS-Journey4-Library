@@ -15,6 +15,10 @@ class Journey4ViewModel {
     
     weak var delegate: Journey4ViewModelDelegate?
     
+    deinit {
+        print("\(Swift.type(of: self)) deinit")
+    }
+    
     func finishJourney() {
         delegate?.finishJourney()
     }

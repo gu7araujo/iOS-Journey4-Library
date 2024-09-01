@@ -8,7 +8,7 @@ target 'Journey4' do
   use_frameworks!
 
   # Pods for Journey4
-  pod 'Core', '0.0.2'
+  pod 'Core', '1.0.0'
 
   target 'Journey4Tests' do
     # Pods for testing
